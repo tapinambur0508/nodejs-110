@@ -1,0 +1,19 @@
+[
+  {
+    "id": "3618bdfd-d361-4830-a575-dec0701f1ed3",
+    "name": "Dave",
+    "phone": "+3909090099",
+    "email": "dave@gmail.com",
+    "job": "Software Engineer"
+  },
+  {
+    "id": "12f021af-633d-43da-8a38-7e59a247e90c",
+    "name": "Max",
+    "phone": "+3906060066",
+    "email": "max@gmail.com",
+    "job": "Software Engineer"
+  },
+  {
+    "id": "401d3485-9eee-4fef-ad30-ee6ae297c089"
+  }
+]

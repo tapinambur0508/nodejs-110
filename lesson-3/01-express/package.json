@@ -1,0 +1,17 @@
+{
+  "name": "01-express",
+  "version": "1.0.0",
+  "description": "Simple Express.js application",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "private": true,
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

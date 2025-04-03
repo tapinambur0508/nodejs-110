@@ -1,0 +1,51 @@
+type: object
+required:
+  - _id
+  - name
+  - gender
+  - year
+  - userId
+  - createdAt
+  - updatedAt
+properties:
+  _id:
+    type: string
+    description: Student id
+    example: 67eec4c00c73bfc979baedbc
+  name:
+    type: string
+    description: Student name
+    example: John Doe
+  gender:
+    type: string
+    description: Student gender
+    enum: ['male', 'female']
+    example: male
+  year:
+    type: number
+    description: Student born year
+    example: 1998
+  onDuty:
+    type: boolean
+    description: Student duty
+    example: false
+    default: false
+  userId:
+    type: string
+    description: Student's teacher id
+    example: 67eec78c0f9979f4b1081e52
+  avatar:
+    type: string
+    description: Student avatar url
+    example: https://res.cloudinary.com/dha4xvgfi/image/upload/v1743104601/snunhxlqvnd67budfeja.webp
+    default: null
+  createdAt:
+    type: string
+    format: date-time
+    description: Student created date
+    example: 2025-03-27T19:43:21.686+00:00
+  updateAt:
+    type: string
+    format: date-time
+    description: Student updated date
+    example: 2025-03-27T19:43:21.686+00:00
